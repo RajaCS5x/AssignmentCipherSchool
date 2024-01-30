@@ -4,11 +4,12 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  RouterProvider,Outlet
+  RouterProvider
 } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import Completed from "./pages/Completed";
+import Layout from "./pages/Layout";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/" element={<Outlet/>}>
+    <Route path="/" element={<Layout/>}>
       <Route index element={<HomePage
       todos={todos}
       setTodos={setTodos}/>}/>

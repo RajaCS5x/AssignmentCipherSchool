@@ -1,0 +1,12 @@
+.list
+{
+  display:"flex";
+  justify-content:"space-around";
+  background-color:"#565656";
+  padding:"1rem";
+  margin:"0";
+}
+.item
+{
+  color:"white";
+}
