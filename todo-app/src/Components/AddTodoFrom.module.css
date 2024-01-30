@@ -1,5 +1,6 @@
 .form {
   border: 1px solid #efefef;
+  
   display: flex;
   height: 64px;
   align-items: center;

@@ -6,7 +6,7 @@ import styles from "../Components/Todo.module.css";
 function Completed({todos}) {
   return (
 
-    <>
+    <div style={{margin:"1rem"}}>
     <h1 style={{textAlign:"center"}}>Completed Tasks : </h1>
     
     {todos.map((todo) => 
@@ -29,7 +29,7 @@ function Completed({todos}) {
           )
         }
        })}
-    </>
+    </div>
   )
 }
 

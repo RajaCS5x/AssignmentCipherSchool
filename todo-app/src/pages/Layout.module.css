@@ -1,12 +1,18 @@
 .list
 {
-  display:"flex";
-  justify-content:"space-around";
-  background-color:"#565656";
-  padding:"1rem";
-  margin:"0";
+  background: linear-gradient(135deg, #223999, #B48953);
+  display: flex;
+  justify-content: space-around;
+  margin: 1px;
+  padding: 1rem;
+  box-shadow: 0 0 1rem black;
 }
 .item
 {
-  color:"white";
+  color: aliceblue;
+  transition: all 0.3s;
+}
+.item:hover{
+  color:lightblue;
+ 
 }
