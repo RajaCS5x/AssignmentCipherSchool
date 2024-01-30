@@ -11,7 +11,9 @@
   transition: all 0.3s;
 }
 .todo:hover{
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
+  margin: .5rem;
+  box-shadow: 0 0 .5rem black inset;
 }
 .buttonContainer {
   display: flex;
@@ -23,6 +25,7 @@
   background-color: #efefef;
   color: #232323;
 }
+
 .completed {
   text-decoration: line-through;
   opacity: 0.7;

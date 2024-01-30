@@ -7,6 +7,11 @@
   border-radius: 10px;
   padding-right: 1rem;
   margin-bottom: 1rem;
+  transition: all .5s;
+}
+.form:hover
+{
+  box-shadow: 0 0 15px black inset;
 }
 .todoInput {
   /* border: 2px solid purple; */
@@ -28,3 +33,4 @@
   background-color: #efefef;
   color: #232323;
 }
+
